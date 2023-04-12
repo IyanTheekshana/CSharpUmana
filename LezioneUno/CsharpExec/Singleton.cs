@@ -5,7 +5,7 @@ namespace CsharpExec
     public class Singleton
     {
 
-        private static Singleton instance = null;
+        private static Singleton _instance = null;
 
         private Singleton()
         {
@@ -14,12 +14,12 @@ namespace CsharpExec
 
         public static Singleton Instance()
         {
-            if (instance == null)
+            if (_instance == null)
             {
-                instance = new Singleton();
+                _instance = new Singleton();
             }
 
-            return instance;
+            return _instance;
         }
 
         public void FaiQualcosa()
@@ -39,6 +39,10 @@ namespace CsharpExec
             Singleton s3 = Singleton.Instance();
             s3.FaiQualcosa();
 
+
+            Console.WriteLine(s1 == s2);
+            Console.WriteLine(s1 == s3);
+            Console.WriteLine(s2 == s3);
         }
     }
 }
