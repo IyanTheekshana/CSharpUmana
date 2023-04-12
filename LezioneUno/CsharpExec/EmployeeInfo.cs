@@ -23,6 +23,8 @@ namespace CsharpExec
 
     //Effettuare il test della classe dal main.
 
+
+
     public class Employee
     {
         public readonly int id;
@@ -30,15 +32,15 @@ namespace CsharpExec
         public readonly string FirstName;
         public readonly string LastName;
         private int _age;
-
-
-
-        public Employee(string firstName, string lastName, int age)
+        private Address _address { get; set; } = new Address();
+        public Employee(string firstName, string lastName, int age, string home, string office)
         {
             FirstName = firstName;
             LastName = lastName;
             Age = age;
             //_age = age; // Error
+            _address.HomeAddress = home;
+            _address.BillingAddress = office;
             id = employeeId++;
         }
 
@@ -65,7 +67,15 @@ namespace CsharpExec
 
         public void printInfo()
         {
-            Console.WriteLine($"{id} - {FirstName} {LastName} is {Age} years old.");
+            Console.WriteLine($"{id} - {FirstName} {LastName} is {Age} years old. {_address.HomeAddress} / {_address.BillingAddress}");
+        }
+
+        private class Address
+        {
+            public string HomeAddress { get; set; }
+            public string BillingAddress { get; set; }
+
+
         }
 
     }
@@ -73,11 +83,15 @@ namespace CsharpExec
     {
         static void Main(string[] args)
         {
-            Employee e = new Employee("Iyan", "Theekshana", 24);
-            Employee e1 = new Employee("Fluvio", "Caruna", -2);
+            Employee e = new Employee("Iyan", "Theekshana", 24, "a", "aa");
+            Employee e1 = new Employee("Fluvio", "Caruna", -2, "b", "bb");
 
             e.printInfo();
             e1.printInfo();
+
+            e1.Age = 40;
+            e1.printInfo();
+
         }
     }
 }
