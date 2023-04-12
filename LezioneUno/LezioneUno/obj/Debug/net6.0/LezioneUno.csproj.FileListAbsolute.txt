@@ -1,0 +1,15 @@
+D:\CorsoUmana\LezioneUno\LezioneUno\bin\Debug\net6.0\LezioneUno.exe
+D:\CorsoUmana\LezioneUno\LezioneUno\bin\Debug\net6.0\LezioneUno.deps.json
+D:\CorsoUmana\LezioneUno\LezioneUno\bin\Debug\net6.0\LezioneUno.runtimeconfig.json
+D:\CorsoUmana\LezioneUno\LezioneUno\bin\Debug\net6.0\LezioneUno.dll
+D:\CorsoUmana\LezioneUno\LezioneUno\bin\Debug\net6.0\LezioneUno.pdb
+D:\CorsoUmana\LezioneUno\LezioneUno\obj\Debug\net6.0\LezioneUno.csproj.AssemblyReference.cache
+D:\CorsoUmana\LezioneUno\LezioneUno\obj\Debug\net6.0\LezioneUno.GeneratedMSBuildEditorConfig.editorconfig
+D:\CorsoUmana\LezioneUno\LezioneUno\obj\Debug\net6.0\LezioneUno.AssemblyInfoInputs.cache
+D:\CorsoUmana\LezioneUno\LezioneUno\obj\Debug\net6.0\LezioneUno.AssemblyInfo.cs
+D:\CorsoUmana\LezioneUno\LezioneUno\obj\Debug\net6.0\LezioneUno.csproj.CoreCompileInputs.cache
+D:\CorsoUmana\LezioneUno\LezioneUno\obj\Debug\net6.0\LezioneUno.dll
+D:\CorsoUmana\LezioneUno\LezioneUno\obj\Debug\net6.0\refint\LezioneUno.dll
+D:\CorsoUmana\LezioneUno\LezioneUno\obj\Debug\net6.0\LezioneUno.pdb
+D:\CorsoUmana\LezioneUno\LezioneUno\obj\Debug\net6.0\LezioneUno.genruntimeconfig.cache
+D:\CorsoUmana\LezioneUno\LezioneUno\obj\Debug\net6.0\ref\LezioneUno.dll
