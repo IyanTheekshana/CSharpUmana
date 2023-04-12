@@ -6,6 +6,8 @@ namespace CsharpExec
     {
 
         private static Singleton _instance = null;
+        public static int maxInstances = 1;
+        private static int _counter = 0;
 
         private Singleton()
         {
@@ -14,7 +16,7 @@ namespace CsharpExec
 
         public static Singleton Instance()
         {
-            if (_instance == null)
+            if (_counter++ < maxInstances)
             {
                 _instance = new Singleton();
             }
@@ -32,6 +34,7 @@ namespace CsharpExec
     {
         static void Main(string[] args)
         {
+            Singleton.maxInstances = 2;
             Singleton s1 = Singleton.Instance();
             s1.FaiQualcosa();
             Singleton s2 = Singleton.Instance();
