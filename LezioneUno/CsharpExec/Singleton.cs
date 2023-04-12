@@ -32,7 +32,7 @@ namespace CsharpExec
     }
     internal class TerzoEsercizio
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             Singleton.maxInstances = 2;
             Singleton s1 = Singleton.Instance();
