@@ -146,7 +146,7 @@ namespace LezioneUno
 
     class Test3
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             //Book b = new Book();
             //b.SetNumP(20);

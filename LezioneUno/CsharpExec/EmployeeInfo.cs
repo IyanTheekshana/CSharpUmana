@@ -75,13 +75,12 @@ namespace CsharpExec
             public string HomeAddress { get; set; }
             public string BillingAddress { get; set; }
 
-
         }
 
     }
     internal class EmployeeInfo
     {
-        static void Main(string[] args)
+        static void Main222(string[] args)
         {
             Employee e = new Employee("Iyan", "Theekshana", 24, "a", "aa");
             Employee e1 = new Employee("Fluvio", "Caruna", -2, "b", "bb");
